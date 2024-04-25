@@ -32,7 +32,7 @@ const Navbar = () => {
             <Link href='/#skills'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
             </Link>
-            <Link href='/'>
+            <Link href='/#projects'>
               <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
             </Link>
             <Link href='/#contact'>
@@ -65,7 +65,7 @@ const Navbar = () => {
                 <Link href='/#skills'>
                   <li onClick={() => setNav(false)} className='py-4 text-sm'>Skills</li>
                 </Link>
-                <Link href='/'>
+                <Link href='/#projects'>
                   <li onClick={() => setNav(false)} className='py-4 text-sm'>Projects</li>
                 </Link>
                 <Link href='/#contact'>
@@ -75,15 +75,21 @@ const Navbar = () => {
               <div className='pt-40'>
                 <h3 className='uppercase'>Let's connect</h3>
                 <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
-                    <FaLinkedin />
-                  </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
-                    <FaGithub />
-                  </div>
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
-                    <FiMail />
-                  </div>
+                  <Link href="https://www.linkedin.com/in/anantagoswami/" target='_blank'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
+                      <FaLinkedin />
+                    </div>
+                  </Link>
+                  <Link href="https://github.com/AnantaGoswami/" target='_blank'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
+                      <FaGithub />
+                    </div>
+                  </Link>
+                  <Link href="mailto:anantagoswamiss@gmail.com">
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
+                      <FiMail />
+                    </div>
+                  </Link>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-125 ease-in duration-300'>
                     <BsPersonLinesFill />
                   </div>
