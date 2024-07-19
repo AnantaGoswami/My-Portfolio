@@ -23,6 +23,13 @@ const projectList = [
         image:"/assets/myportfolio.png",
         github:"https://github.com/AnantaGoswami/My-Portfolio.git",
         link:"https://anantagoswami.vercel.app/",
+    },
+    {
+        name: "Weather App",
+        description: "A weather app that gives us the current weather info for the city we search for.",
+        image:"/assets/weather.png",
+        github:"https://github.com/AnantaGoswami/weatherApp.git",
+        link:"https://tellmeweather.vercel.app/",
     }
 ]
 
